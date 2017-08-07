@@ -1,0 +1,45 @@
+* The Emacs Key Map
+** 常规
+*** C-h c <key> : 获取简要说明
+*** C-h k <key> : 查询快捷键(更多的信息)
+*** C-h f <fun> : 解释一个函数
+*** C-h v <ver> : 显示 Emacs 变量文档
+*** C-h m : 查看当前主模式文档
+*** C-h a : 相关命令搜索
+*** M-x : 执行命令
+*** C-g : quit command 
+*** C-z : 挂起Emacs
+*** C-x C-c : 关闭Emacs
+** Cursor movement(光标移动)
+*** C-f(forward), C-b(backward), C-n(next), C-p(previous) 前后左右移动
+*** C-a, C-e : 移动到行首，移动到行尾
+*** M-f : next word
+*** M-b : befor word
+** 文件和缓冲区操作
+*** C-x C-f : open or new a file
+*** C-x s : save all buffers
+*** C-x C-s : save buffer
+*** C-x C-w : save asq
+*** C-x C-v : close this buffer and open new file
+*** C-x b : new or switch the buffer
+*** C-x C-b : open new window and show buffer list
+*** C-x k : close a buffer
+** Windows(窗格)
+*** C-x 1 : 只保留一个窗格，即关闭其他窗格
+*** C-x 2 : 横向分割窗格，即在下方打开新窗格
+*** C-x 3 : 纵向分割窗格，即在右方打开新窗格
+*** C-x o : 跳转到其他窗格
+** Editint(编辑)
+*** C-u <num> <command> : 执行指定num次command
+*** C-k : remove(kill) the characters from the cursor to the end of the line
+    单独的 C-k 会移除一行的内容，而第二个 C-k 则会移除换行符。指定重复次数时，则删除指定行数
+*** C-y : 召回移除的内容
+*** M-y : 切换召回多次的移除
+*** C-w : 移除选中内容
+*** M-w : 复制选中的内容
+*** C-y : 粘贴
+* Spacemacs Frequently-used Key
+** 常规
+*** spc h spc : 查看安装的layer即对应的package
+*** spc f j : 打开当前文件的目录
+ 
