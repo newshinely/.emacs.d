@@ -1,45 +1,75 @@
 * The Emacs Key Map
-** ³£¹æ
-*** C-h c <key> : »ñÈ¡¼òÒªËµÃ÷
-*** C-h k <key> : ²éÑ¯¿ì½İ¼ü(¸ü¶àµÄĞÅÏ¢)
-*** C-h f <fun> : ½âÊÍÒ»¸öº¯Êı
-*** C-h v <ver> : ÏÔÊ¾ Emacs ±äÁ¿ÎÄµµ
-*** C-h m : ²é¿´µ±Ç°Ö÷Ä£Ê½ÎÄµµ
-*** C-h a : Ïà¹ØÃüÁîËÑË÷
-*** M-x : Ö´ĞĞÃüÁî
+** å¸¸è§„
+*** M-x : æ‰§è¡Œå‘½ä»¤
 *** C-g : quit command 
-*** C-z : ¹ÒÆğEmacs
-*** C-x C-c : ¹Ø±ÕEmacs
-** Cursor movement(¹â±êÒÆ¶¯)
-*** C-f(forward), C-b(backward), C-n(next), C-p(previous) Ç°ºó×óÓÒÒÆ¶¯
-*** C-a, C-e : ÒÆ¶¯µ½ĞĞÊ×£¬ÒÆ¶¯µ½ĞĞÎ²
+*** C-z : æŒ‚èµ·Emacs
+*** C-x C-c : å…³é—­Emacs
+** å¸®åŠ©
+*** C-h c <key> : è·å–ç®€è¦è¯´æ˜
+*** C-h k <key> : æŸ¥è¯¢å¿«æ·é”®(æ›´å¤šçš„ä¿¡æ¯)
+*** C-h f <fun> : è§£é‡Šä¸€ä¸ªå‡½æ•°
+*** C-h v <ver> : æ˜¾ç¤º Emacs å˜é‡æ–‡æ¡£
+*** C-h m : æŸ¥çœ‹å½“å‰ä¸»æ¨¡å¼æ–‡æ¡£
+*** C-h a : ç›¸å…³å‘½ä»¤æœç´¢
+** Cursor movement(å…‰æ ‡ç§»åŠ¨)
+*** C-f(forward), C-b(backward), C-n(next), C-p(previous) å‰åå·¦å³ç§»åŠ¨
+*** C-a, C-e : ç§»åŠ¨åˆ°è¡Œé¦–ï¼Œç§»åŠ¨åˆ°è¡Œå°¾
 *** M-f : next word
 *** M-b : befor word
-** ÎÄ¼şºÍ»º³åÇø²Ù×÷
+** æ–‡ä»¶å’Œç¼“å†²åŒºæ“ä½œ
 *** C-x C-f : open or new a file
 *** C-x s : save all buffers
 *** C-x C-s : save buffer
 *** C-x C-w : save asq
 *** C-x C-v : close this buffer and open new file
-*** C-x b : new or switch the buffer
 *** C-x C-b : open new window and show buffer list
 *** C-x k : close a buffer
-** Windows(´°¸ñ)
-*** C-x 1 : Ö»±£ÁôÒ»¸ö´°¸ñ£¬¼´¹Ø±ÕÆäËû´°¸ñ
-*** C-x 2 : ºáÏò·Ö¸î´°¸ñ£¬¼´ÔÚÏÂ·½´ò¿ªĞÂ´°¸ñ
-*** C-x 3 : ×İÏò·Ö¸î´°¸ñ£¬¼´ÔÚÓÒ·½´ò¿ªĞÂ´°¸ñ
-*** C-x o : Ìø×ªµ½ÆäËû´°¸ñ
-** Editint(±à¼­)
-*** C-u <num> <command> : Ö´ĞĞÖ¸¶¨num´Îcommand
+** Windows(çª—æ ¼)
+*** C-x 1 : åªä¿ç•™ä¸€ä¸ªçª—æ ¼ï¼Œå³å…³é—­å…¶ä»–çª—æ ¼
+*** C-x 2 : æ¨ªå‘åˆ†å‰²çª—æ ¼ï¼Œå³åœ¨ä¸‹æ–¹æ‰“å¼€æ–°çª—æ ¼
+*** C-x 3 : çºµå‘åˆ†å‰²çª—æ ¼ï¼Œå³åœ¨å³æ–¹æ‰“å¼€æ–°çª—æ ¼
+*** C-x o : è·³è½¬åˆ°å…¶ä»–çª—æ ¼
+** Editint(ç¼–è¾‘)
+*** C-u <num> <command> : æ‰§è¡ŒæŒ‡å®šnumæ¬¡command
 *** C-k : remove(kill) the characters from the cursor to the end of the line
-    µ¥¶ÀµÄ C-k »áÒÆ³ıÒ»ĞĞµÄÄÚÈİ£¬¶øµÚ¶ş¸ö C-k Ôò»áÒÆ³ı»»ĞĞ·û¡£Ö¸¶¨ÖØ¸´´ÎÊıÊ±£¬ÔòÉ¾³ıÖ¸¶¨ĞĞÊı
-*** C-y : ÕÙ»ØÒÆ³ıµÄÄÚÈİ
-*** M-y : ÇĞ»»ÕÙ»Ø¶à´ÎµÄÒÆ³ı
-*** C-w : ÒÆ³ıÑ¡ÖĞÄÚÈİ
-*** M-w : ¸´ÖÆÑ¡ÖĞµÄÄÚÈİ
-*** C-y : Õ³Ìù
+    å•ç‹¬çš„ C-k ä¼šç§»é™¤ä¸€è¡Œçš„å†…å®¹ï¼Œè€Œç¬¬äºŒä¸ª C-k åˆ™ä¼šç§»é™¤æ¢è¡Œç¬¦ã€‚æŒ‡å®šé‡å¤æ¬¡æ•°æ—¶ï¼Œåˆ™åˆ é™¤æŒ‡å®šè¡Œæ•°
+*** C-y : å¬å›ç§»é™¤çš„å†…å®¹
+*** M-y : åˆ‡æ¢å¬å›å¤šæ¬¡çš„ç§»é™¤
+*** C-w : ç§»é™¤é€‰ä¸­å†…å®¹
+*** M-w : å¤åˆ¶é€‰ä¸­çš„å†…å®¹
+*** C-y : ç²˜è´´
+*** C-M-\ : æ ¼å¼åŒ–è¿™ä¸ªbuffer
+* Dired mode
+** C-x d : to Dired
+** + : to create directory
+** C-x C-f : to create file
+** g : to refresh dired buffer
+** C : copy file
+** d : make to delete file
+** D : delete file
+** R : rename files
+** C-x C-j : ç›´æ¥æ‰“å¼€å½“å‰æ–‡ä»¶çš„Dired mode
+* org-mode Key-map
+** tmp
+*** C-c ' open SRC code in a new buffer(åœ¨ä¸€ä¸ªæ–°çš„bufferä¸­æ‰“å¼€SRCä»£ç )
+eg:
+#+BEGIN_SRC emacs-lisp
+  (setq make-backup-files nil)
+#+END_SRC
+* GTD
+** Basic Conf
+*** collocate the agenda files and key-map
+#+BEGIN_SRC emacs-lisp
+(setq org-agenda-files '("~/.emacs.d/org"))
+(global-set-key (kbd "C-c a") 'org-agenda)
+#+END_SRC
+*** new the files
+*** edit in this files
+** Key-map
+*** C-c C-s è®¾ç½®å¼€å§‹æ—¶é—´
+*** C-c C-d è®¾ç½®æˆªæ­¢æ—¶é—´
 * Spacemacs Frequently-used Key
-** ³£¹æ
-*** spc h spc : ²é¿´°²×°µÄlayer¼´¶ÔÓ¦µÄpackage
-*** spc f j : ´ò¿ªµ±Ç°ÎÄ¼şµÄÄ¿Â¼
- 
+** å¸¸è§„
+*** spc h spc : æŸ¥çœ‹å®‰è£…çš„layerå³å¯¹åº”çš„package
+*** spc f j : æ‰“å¼€å½“å‰æ–‡ä»¶çš„ç›®å½•
+

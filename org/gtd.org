@@ -1,0 +1,2 @@
+** to learn Emacs
+   DEADLINE: <2017-08-13 周日 14:00> SCHEDULED: <2017-08-13 周日 10:00>

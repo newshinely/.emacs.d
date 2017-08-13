@@ -70,9 +70,10 @@
 (setq dired-recursive-deletes 'always)
 (setq dired-recursive-copies 'always)
 
-;; 总是只有个dired buffer
+;; 总是只有一个dired buffer
 (put 'dired-find-alternate-file 'disabled nil)
 
+;; 可以打开当前文件的dired mode
 (require 'dired-x)
 
 ;; 两个dired mode快捷copy

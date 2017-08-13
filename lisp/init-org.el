@@ -2,6 +2,6 @@
 (require 'org)
 (setq org-src-fontify-natively t)
 
-(setq org-agenda-files '("~/org"))
+(setq org-agenda-files '("~/.emacs.d/org"))
 
 (provide 'init-org)
