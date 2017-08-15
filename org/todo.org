@@ -1,0 +1,4 @@
+* Tasks
+** TODO this is a test capture
+   
+   [[file:~/.emacs.d/lisp/init-org.el::(require%20'org)][file:~/.emacs.d/lisp/init-org.el::(require 'org)]]

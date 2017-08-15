@@ -20,9 +20,6 @@
 ;; 查找本git仓库中的文件
 (global-set-key (kbd "C-c p f") 'counsel-git)
 
-;; 打开agenda 的快捷键
-(global-set-key (kbd "C-c a") 'org-agenda)
-
 ;; 格式化快捷键
 (global-set-key (kbd "C-M-\\") 'indent-region-or-buffer)
 
