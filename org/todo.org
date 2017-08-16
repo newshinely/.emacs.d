@@ -1,4 +1,13 @@
+
 * Tasks
-** TODO this is a test capture
+** DONE this is a test capture				   :gqkh:@Home:sxlrs:
    
    [[file:~/.emacs.d/lisp/init-org.el::(require%20'org)][file:~/.emacs.d/lisp/init-org.el::(require 'org)]]
+** DONE 公共服务平台优化：如果登录则自动查询		       :ggfw:@Office:
+   SCHEDULED: <2017-08-16 周三 10:00>
+   - State "DONE"       from "TODO"       [2017-08-16 周三 15:40]
+** DONE 劳动监察 给杨处统计系统中的监察员数量 和 用人单位数量 :@Office:sxlrs:
+   DEADLINE: <2017-08-16 周三 14:00> SCHEDULED: <2017-08-16 周三 10:50>
+   - State "DONE"       from "TODO"       [2017-08-16 周三 15:13]
+** TODO 工勤考核系统 去工考办取汇总成绩，后期需要上传到系统	       :gqkh:
+  SCHEDULED: <2017-08-16 周三 17:27>
