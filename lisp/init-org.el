@@ -3,7 +3,7 @@
 ;; 高亮显示org-mode中的代码
 (setq org-src-fontify-natively t)
 
-;;; begin  GTD 配置
+;;; begin GTD 配置
 
 ;; 配置agenda
 (setq org-agenda-files '("~/.emacs.d/org"))
@@ -20,7 +20,7 @@
 
 ;; 配置 TODO 关键字
 (setq org-todo-keywords
-           '((sequence "TODO(t)" "|" "DONE(d!)")
+           '((sequence "TODO(t)" "WAITING(w@/!)" "|" "DONE(d!)")
              (sequence "REPORT(r)" "BUG(b)" "KNOWNCAUSE(k)" "|" "FIXED(f)")
              (sequence "|" "CANCELED(c@/!)")))
 
@@ -30,7 +30,7 @@
                       (:endgroup . nil)
                       ("Call" . ?c)
 		      ("Email" . ?e)))
-;;; end  GTD 配置
+;;; end GTD 配置
 
 ;; test code
 ;; (org-remember-insinuate)

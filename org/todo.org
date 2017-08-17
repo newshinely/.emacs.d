@@ -1,4 +1,3 @@
-
 * Tasks
 ** DONE this is a test capture				   :gqkh:@Home:sxlrs:
    
@@ -6,8 +5,27 @@
 ** DONE 公共服务平台优化：如果登录则自动查询		       :ggfw:@Office:
    SCHEDULED: <2017-08-16 周三 10:00>
    - State "DONE"       from "TODO"       [2017-08-16 周三 15:40]
-** DONE 劳动监察 给杨处统计系统中的监察员数量 和 用人单位数量 :@Office:sxlrs:
-   DEADLINE: <2017-08-16 周三 14:00> SCHEDULED: <2017-08-16 周三 10:50>
+** DONE 劳动监察 给杨处统计数量				      :@Office:sxlrs:
+   系统中的监察员数量 和 用人单位数量 
+   SCHEDULED: <2017-08-16 周三 10:50>
    - State "DONE"       from "TODO"       [2017-08-16 周三 15:13]
-** TODO 工勤考核系统 去工考办取汇总成绩，后期需要上传到系统	       :gqkh:
+** DONE 工勤考核系统 去工考办取汇总成绩，后期需要上传到系统    :@Office:gqkh:
   SCHEDULED: <2017-08-16 周三 17:27>
+  - State "DONE"       from "TODO"       [2017-08-17 周四 16:06]
+  - State "TODO"       from "WAITING"    [2017-08-17 周四 09:57]
+  - State "WAITING"    from "TODO"       [2017-08-17 周四 09:45] \\
+    等待 赵彤彤 的电话通知
+** WAITING 给鉴定中心安装VPN，并导入证书信息		       :zscx:@Office:
+   SCHEDULED: <2017-08-17 周四 09:21>
+   - State "WAITING"    from "TODO"       [2017-08-17 周四 20:32] \\
+     告知鉴定中心刘老师，他给的表格错误，没有 外语成绩 一栏
+  - State "DONE"       from "TODO"       [2017-08-17 周四 16:06]
+** CANCELED to test todolist
+  SCHEDULED: <2017-08-17 周四 10:09>
+  - State "CANCELED"   from "DONE"       [2017-08-17 周四 10:10] \\
+    to canceled
+  - State "DONE"       from "WAITING"    [2017-08-17 周四 10:10]
+  - State "WAITING"    from "TODO"       [2017-08-17 周四 10:10] \\
+    waiting for call
+** TODO 告知 赵彤彤 数据导入时间			       :gqkh:@Office:
+  SCHEDULED: <2017-08-18 周五 8:38>
