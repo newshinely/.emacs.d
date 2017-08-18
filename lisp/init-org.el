@@ -6,16 +6,16 @@
 ;;; begin GTD 配置
 
 ;; 配置agenda
-(setq org-agenda-files '("~/.emacs.d/org"))
+(setq org-agenda-files '("~/org-notes"))
 (global-set-key (kbd "C-c a") 'org-agenda)
 
 ;; 配置 capture 
 (global-set-key (kbd "C-c c") 'org-capture)
 ;; 配置 capture 的文件
 (setq org-capture-templates
-      '(("t" "Todo" entry (file+headline "~/.emacs.d/org/todo.org" "Tasks")
+      '(("t" "Todo" entry (file+headline "~/org-notes/todo.org" "Tasks")
 	 "* TODO %?\n SCHEDULED: <%<%Y-%m-%d %a %H:%M>>")
-        ("j" "Journal" entry (file+datetree "~/.emacs.d/org/journal.org")
+        ("j" "Journal" entry (file+datetree "~/org-notes/journal.org")
 	 "* %?\nEntered on %U\n  %i\n  %a")))
 
 ;; 配置 TODO 关键字

@@ -1,8 +1,0 @@
-
-* 2017
-** 2017-08 八月
-*** 2017-08-16 星期三
-**** to test Journal
-Entered on [2017-08-16 周三 00:46]
-  
-  [[file:~/.emacs.d/lisp/init-org.el::"*%20%25?\nEntered%20on%20%25U\n%20%25i\n%20%25a")))][file:~/.emacs.d/lisp/init-org.el::"* %?\nEntered on %U\n %i\n %a")))]]
