@@ -15,8 +15,10 @@
   - State "TODO"       from "WAITING"    [2017-08-17 周四 09:57]
   - State "WAITING"    from "TODO"       [2017-08-17 周四 09:45] \\
     等待 赵彤彤 的电话通知
-** WAITING 给鉴定中心安装VPN，并导入证书信息		       :zscx:@Office:
+** DONE 给鉴定中心安装VPN，并导入证书信息		       :zscx:@Office:
    SCHEDULED: <2017-08-17 周四 09:21>
+   - State "DONE"       from "TODO"       [2017-08-18 周五 10:31]
+   - State "TODO"       from "WAITING"    [2017-08-18 周五 09:16]
    - State "WAITING"    from "TODO"       [2017-08-17 周四 20:32] \\
      告知鉴定中心刘老师，他给的表格错误，没有 外语成绩 一栏
   - State "DONE"       from "TODO"       [2017-08-17 周四 16:06]
@@ -27,5 +29,11 @@
   - State "DONE"       from "WAITING"    [2017-08-17 周四 10:10]
   - State "WAITING"    from "TODO"       [2017-08-17 周四 10:10] \\
     waiting for call
-** TODO 告知 赵彤彤 数据导入时间			       :gqkh:@Office:
+** DONE 告知 赵彤彤 数据导入时间			       :gqkh:@Office:
   SCHEDULED: <2017-08-18 周五 8:38>
+  - State "DONE"       from "TODO"       [2017-08-18 周五 09:16]
+** TODO 统计目前的网上投诉举报数量 			      :sxlrs:@Office:
+  SCHEDULED: <2017-08-21 周一 8:00>
+** TODO 优化公司电脑C盘空间					    :@Office:
+   考虑把 IDEA 的文件移动到D盘
+  SCHEDULED: <2017-08-18 周五 15:16>

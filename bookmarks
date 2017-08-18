@@ -4,7 +4,7 @@
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
 (("org-capture-last-stored"
  (filename . "~/.emacs.d/org/todo.org")
- (front-context-string . "** TODO 告知 赵彤彤 数")
- (rear-context-string . "aiting for call\n")
- (position . 1342))
+ (front-context-string . "** TODO 优化公司电脑C盘")
+ (rear-context-string . "-08-21 周一 8:00>\n")
+ (position . 1691))
 )
